@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <title>Ma Formulaire</title>
+    <link href="/style3Formulaire.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <form action="" method="get" class="formulair">
+            
+            <h1>Veuillez remplir avec soint cette formulaire</h1><br>
+            <fieldset>
+                <legend class="legend"><strong>Informations</strong></legend>
+                <p>
+                    <label for="Nom" class="color"><strong>Entrer Nom: </strong></label>
+                    <input type="text" name="Nom" id="Nom" placeholder="Ex: Votre Nom" size="30" maxlength="20" required><br><br>
+                
+                    <label for="prenom" class="color"><strong>Entrer Prenom: </strong></label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Ex: Votre Prenom" size="30" maxlength="25" required><br><br>
+                
+                
+                    <label for="e-mail" class="color"><strong>Entrer e-mail: </strong></label>
+                    <input type="e-mail" name="e-mail" id="e-mail" placeholder="Ex: votre adre e-mail" min="@gmail" max=".com" required><br><br>
+                
+                
+                    <label for="tel" class="color"><strong>Numero de telephone: </strong></label>
+                    <input type="tel" name="tel" id="tel" placeholder="Ex: votre numero de telephone" size="25" maxlength="30" required><br><br>
+                
+                
+                    <label for="lien" class="color"><strong>Entrer l'URL: </strong></label>
+                    <input type="url" name="lien" id="lien" placeholder="Ex: http://" maxlength="100" required><br><br>
+                
+                    <label for="date" class="color"><strong>Entrer la date: </strong></label>
+                    <input type="date" name="date" id="start" value="2023-01-01" min="1990-01-01" max="2026-12-31" required><br><br>
+                
+                    <label for="date" class="color"><strong>Entrer l'Heure: </strong></label>
+                    <input type="time" name="time" id="date" placeholder="Ex: 23h59..." min="00:00:00" max="23:59:00" required><br><br>
+                
+                    <label for="adress" class="color"><strong>Entrer Adress: </strong></label>
+                    <input type="text" name="adress" id="adress" placeholder="Ex: Votre Adress" maxlength="50" required><br><br>
+                </p>
+            </fieldset><br>
+
+            <h1>Presentez-vous le plus bref que possible: </h1><br>
+            <fieldset>
+                <legend class="legend"><strong>Vos Parcours</strong></legend>
+                <p>
+                    <label for="Presentation" class="color">Plus d'information sur vous: <br></label>
+                    <textarea name="Presentation" id="Presentation" cols="80" rows="15" maxlength="4535" placeholder="Ex: VOTRE VIE ACTUELLE"></textarea><br><br>
+
+                    <label for="Search" class="color">Recherche</label><br>
+                    <input type="search" name="Recheche" id="Search" placeholder="Ex: Search">
+                    <input type="button" value="Go!">
+                </p><br>
+
+                <!--La liste deroulante Pour selectionner un pays ou un continant parmis tant d'autres-->
+                <label for="selection" class="color">Pays de Residance: </label><br>
+                <select name="checkbox" id="selection">
+                    <option value="checkbox">Niger</option>
+                    <option value="checkbox">Mali</option>
+                    <option value="checkbox">Bourkina Faso</option>
+                    <option value="checkbox">Guinee</option>
+                    <option value="checkbox">Nigeria</option>
+                    <option value="checkbox">Tchad</option>
+                    <option value="checkbox">Lome</option>
+                    <option value="checkbox">Cote-D'ivoir</option>
+                </select><br><br>
+    
+                <label for="selection" class="color">Region </label><br>
+                <select name="checkbox" id="selection">
+                    <option value="checkbox">Niamey</option>
+                    <option value="checkbox">Dosso</option>
+                    <option value="checkbox">Tilabery</option>
+                    <option value="checkbox">Maradi</option>
+                    <option value="checkbox">Zinder</option>
+                    <option value="checkbox">Agadez</option>
+                    <option value="checkbox">Taoua</option>
+                    <option value="checkbox">Diffa</option>
+                </select>
+            </fieldset><br>
+            
+            <h1>Cocher vos meilleurs fruits</h1><br>
+            <fieldset>
+                <legend class="legend"><strong>Vos choix</strong></legend>
+                <!--Checkbox pour faire des choix multiples-->
+                <p>
+                    <input type="checkbox" name="Anana" id="choix" required> <label for="choix">Anana</label><br>
+                    <input type="checkbox" name="Orange" id="choix" required> <label for="choix">Orange</label><br>
+                    <input type="checkbox" name="Banane" id="choix" required> <label for="choix">Banane</label><br>
+                    <input type="checkbox" name="Mangue" id="choix" required> <label for="choix">Mangue</label><br>
+                    <input type="checkbox" name="Pasteque" id="choix" required> <label for="choix">Pasteque</label><br>
+                </p>
+                <h1>Quel age avez vous? </h1>
+                <!--Pour faire un seul choix a la fois-->
+                <p>
+                    <input type="radio" name="age" id="choix" required> <label for="choix">Moins de 18ans</label><br>
+                    <input type="radio" name="age" id="choix"> <label for="choix">18 - 25ans</label><br>
+                    <input type="radio" name="age" id="choix"> <label for="choix">25 - 35ans</label><br>
+                    <input type="radio" name="age" id="choix"> <label for="choix">35 - 50ans</label><br>
+                    <input type="radio" name="age" id="choix"> <label for="choix">plus de 50ans</label>
+                </p>
+                
+            </fieldset>
+            <p class="p2">
+                <input type="radio" name="q" id="chois" required class="moy"> <label for="chois">Par sms</label>
+                <input type="radio" name="q" id="chois" required class="moy"> <label for="chois">Par e-mail</label>
+                <input type="radio" name="q" id="chois" required class="moy"> <label for="chois">Par couriel postal</label>
+            </p>
+            <p>
+                <input type="submit" value="Envoi" class="envoi">
+            </p>
+            
+            
+        </form>
+    </body>
+    
+</html>

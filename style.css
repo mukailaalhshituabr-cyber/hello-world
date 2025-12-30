@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0px;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/image1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acceuil{
+    font-size: 2em;
+    padding-left: 70px;
+}
+.nav1{
+    background-color: gray;
+    border-bottom: black solid 3px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.a1:hover{
+    color: rgb(92, 92, 250);
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.info_{
+    margin-top: 20px;
+}
+
+.div11{
+    color: white;
+    padding-left: 30px;
+    background-color: gray;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.info1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.info2{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.info3{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    padding: 20px;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(184, 181, 181);
+    width: 100%;
+    color: white;
+    margin-top: 90px;
+    justify-content: space-around;
+
+}
+
+.foot1_1{
+    padding-bottom: 20px;
+}
+.foot1_2{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    display: flex;
+}
+.im2{
+    width: 90px;
+    padding-left: 20px;
+    margin-bottom: -50px;
+}
+.im2:hover{
+    opacity: 0.5;
+    color: gray;
+}
+.cont1{
+    color: black;
+}
+.cont1:hover{
+    color: red;
+    text-decoration: underline;
+}
+.foot1_1_1:hover{
+    color: rgb(117, 117, 244);
+    text-decoration: underline;
+}
+.foot1_1_2:hover{
+    color: rgb(117, 117, 244);
+    text-decoration: underline;
+}
+.foot1_1_3:hover{
+    color: rgb(117, 117, 244);
+    text-decoration: underline;
+}
+.foot1_1_4:hover{
+    color: rgb(117, 117, 244);
+    text-decoration: underline;
+}
+
